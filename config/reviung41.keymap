@@ -47,14 +47,14 @@
         raise_layer {
             // ----------------------------------------------------------------------------
             // |    |  F1 |  F2 |  F3 |  F4 | F5  |   | F6  |  F7 |  F8 |  F9 | F10 | DEL |
-            // |    |  1  |  2  |  3  |  4  |  5  |   | LFT | UP  | DWN | RGT |     |     |
-            // |    |  6  |  7  |  8  |  9  |  0  |   |     | HOME| END |     |     |     |
+            // |    |  1  |  2  |  3  |  4  |  5  |   | LFT | UP  | DWN | RGT | F11 |     |
+            // |    |  6  |  7  |  8  |  9  |  0  |   |     | HOME| END |     | F12 |     |
             //                       |     | ADJ | BKSP |    |     |
 
             bindings = <
 &trans        &kp F1        &kp F2        &kp F3        &kp F4        &kp F5              &kp F6    &kp F7    &kp F8     &kp F9  &kp F10  &kp DEL
-&trans  &kt NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5            &kp LEFT    &kp UP  &kp DOWN  &kp RIGHT   &trans   &trans
-&trans  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0              &trans  &kt HOME   &kt END     &trans   &trans   &trans
+&trans  &kt NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5            &kp LEFT    &kp UP  &kp DOWN  &kp RIGHT  &kp F11   &trans
+&trans  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0              &trans  &kp HOME   &kp END     &trans  &kp F12   &trans
                                           &trans         &mo 3                &kp BSPC              &trans    &trans
             >;
         };
